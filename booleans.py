@@ -40,7 +40,7 @@ def sum(l1,l2):
         l3.append((l1[i] + l2[i]) % 2)
     return l3
 
-def rid(l):
+def reed(l):
     ll = len(l)
     if ll == 1:
         return l
@@ -49,4 +49,4 @@ def rid(l):
     l2 = sum(l1,l2)
     return rid(l1) + rid(l2)
     
-print(rid([1,0,1,1,0,0,0,1]))
+print(reed([1,0,1,1,0,0,0,1]))
